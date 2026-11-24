@@ -1,0 +1,183 @@
+{
+  "appName": "Business Model Canvas",
+  "tagline": "Design your business model on one page",
+  "untitled": "Untitled business model",
+  "fields": {
+    "title": "Project name",
+    "author": "Designed by",
+    "date": "Date",
+    "version": "Version"
+  },
+  "toolbar": {
+    "gallery": "Templates & examples",
+    "guide": "How to start",
+    "new": "New canvas",
+    "share": "Share link",
+    "export": "Export",
+    "png": "PNG image",
+    "pdfA4": "PDF (A4)",
+    "pdfA3": "PDF (A3)",
+    "print": "Print or save as text PDF",
+    "json": "Save file (.json)",
+    "import": "Open file (.json)",
+    "undo": "Undo",
+    "redo": "Redo",
+    "settings": "Display & accessibility",
+    "language": "Language",
+    "menu": "More actions"
+  },
+  "block": {
+    "add": "Add note",
+    "guide": "Guidance",
+    "empty": "Empty. Try answering:",
+    "notes": "Notes: {{count}}",
+    "filled": "Filled"
+  },
+  "note": {
+    "placeholder": "Write one idea…",
+    "delete": "Delete note",
+    "color": "Colour",
+    "drag": "Drag to move",
+    "actions": "Note actions",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "moveTo": "Move to block",
+    "hint": "Template prompt. Type to replace it with your answer."
+  },
+  "colors": {
+    "yellow": "Yellow",
+    "pink": "Pink",
+    "blue": "Blue",
+    "green": "Green",
+    "purple": "Purple"
+  },
+  "groups": {
+    "infrastructure": "How you deliver",
+    "offer": "Value",
+    "customers": "Customers",
+    "finances": "Money"
+  },
+  "progress": {
+    "label": "Blocks filled: {{done}} / 9",
+    "next": "Next: {{block}}",
+    "done": "All blocks filled. Now test your assumptions with real customers."
+  },
+  "welcome": {
+    "title": "Welcome! How would you like to start?",
+    "body": "Your canvas saves automatically in this browser. Nothing is sent to a server.",
+    "template": "Start from a template",
+    "example": "Explore an example",
+    "guide": "Read the quick guide",
+    "blank": "Start with Customer Segments",
+    "dismiss": "Hide",
+    "import": "Open a saved file"
+  },
+  "guide": {
+    "what": "What is this block?",
+    "questions": "Questions to ask",
+    "mistakes": "Common mistakes",
+    "examples": "Examples",
+    "addExample": "Add",
+    "added": "Added to {{block}}",
+    "close": "Close",
+    "intro": "How to start",
+    "order": "Suggested order",
+    "tips": "Quick tips",
+    "prev": "Previous block",
+    "next": "Next block"
+  },
+  "gallery": {
+    "title": "Templates & examples",
+    "tabTemplates": "Templates",
+    "tabExamples": "Examples",
+    "templatesHelp": "A template fills every block with guiding prompts for your type of business. Type over each prompt with your own answer.",
+    "examplesHelp": "Complete sample canvases you can study or adapt. Colours show which notes belong to which customer segment.",
+    "all": "All",
+    "blank": "Blank canvas",
+    "blankDesc": "Start from scratch",
+    "use": "Use",
+    "confirm": "This will replace your current canvas. You can undo afterwards. Continue?",
+    "yes": "Yes, replace it",
+    "cancel": "Cancel",
+    "import": "Open a saved file",
+    "importDesc": "Continue a canvas you downloaded (.json)"
+  },
+  "categories": {
+    "food": "Food",
+    "education": "Education",
+    "tech": "Technology",
+    "retail": "Retail",
+    "services": "Services",
+    "social": "Social impact",
+    "health": "Health",
+    "tourism": "Tourism"
+  },
+  "settings": {
+    "title": "Display & accessibility",
+    "theme": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark",
+    "textSize": "Text size",
+    "sizes": {
+      "s": "Small",
+      "m": "Default",
+      "l": "Large",
+      "xl": "Extra large"
+    },
+    "contrast": "High contrast",
+    "contrastHelp": "Stronger borders and text colours.",
+    "motion": "Reduce motion",
+    "motionHelp": "Turns off animations and transitions.",
+    "shortcuts": "Keyboard shortcuts",
+    "sc": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "newNote": "In a note: add the next note",
+      "deleteEmpty": "In an empty note: delete it",
+      "move": "In a note: move it up or down",
+      "close": "Close a panel or dialog"
+    },
+    "reset": "Reset display settings"
+  },
+  "a11y": {
+    "skip": "Skip to canvas",
+    "noteAdded": "Note added to {{block}}",
+    "noteDeleted": "Note deleted",
+    "noteMoved": "Moved to {{block}}, position {{pos}}",
+    "undone": "Undone",
+    "redone": "Redone",
+    "canvasLoaded": "Canvas loaded",
+    "langChanged": "Language changed to English"
+  },
+  "msg": {
+    "copied": "Link copied. Anyone who opens it gets a copy of your canvas.",
+    "longLink": "This link is very long and may not work in some apps. Try saving a file instead.",
+    "loadedShared": "Opened a shared canvas.",
+    "replaceShared": "You opened a shared canvas link. Replace your current canvas with it?",
+    "badFile": "Could not read that file.",
+    "exporting": "Exporting…",
+    "exported": "Download ready",
+    "exportFailed": "Export failed. Please try again.",
+    "confirmNew": "This clears the current canvas. You can undo afterwards. Continue?",
+    "saved": "Saved in this browser",
+    "undo": "Undo",
+    "dropFile": "Drop your .json file to open it"
+  },
+  "footer": {
+    "attribution": "Strategyzer AG · CC BY-SA 3.0",
+    "privacy": "Your canvas stays in your browser."
+  },
+  "tour": {
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip introduction",
+    "step": "Step {{n}} of {{total}}",
+    "template": "Start from a template",
+    "blank": "Start with a blank canvas",
+    "guide": "Open the block-by-block guide",
+    "diagram": "Diagram of the nine blocks",
+    "selected": "Connections of {{block}}",
+    "all": "Show all connections"
+  }
+}

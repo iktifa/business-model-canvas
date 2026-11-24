@@ -1,0 +1,183 @@
+{
+  "appName": "İş Modeli Kanvası",
+  "tagline": "İş modelinizi tek sayfada tasarlayın",
+  "untitled": "Adsız iş modeli",
+  "fields": {
+    "title": "Proje adı",
+    "author": "Tasarlayan",
+    "date": "Tarih",
+    "version": "Sürüm"
+  },
+  "toolbar": {
+    "gallery": "Şablonlar ve örnekler",
+    "guide": "Nasıl başlanır",
+    "new": "Yeni kanvas",
+    "share": "Bağlantı paylaş",
+    "export": "Dışa aktar",
+    "png": "PNG görseli",
+    "pdfA4": "PDF (A4)",
+    "pdfA3": "PDF (A3)",
+    "print": "Yazdır veya metin PDF'i olarak kaydet",
+    "json": "Dosyayı kaydet (.json)",
+    "import": "Dosya aç (.json)",
+    "undo": "Geri al",
+    "redo": "Yinele",
+    "settings": "Görünüm ve erişilebilirlik",
+    "language": "Dil",
+    "menu": "Diğer işlemler"
+  },
+  "block": {
+    "add": "Not ekle",
+    "guide": "Rehber",
+    "empty": "Boş. Şunları yanıtlamayı deneyin:",
+    "notes": "Not: {{count}}",
+    "filled": "Dolu"
+  },
+  "note": {
+    "placeholder": "Tek bir fikir yazın…",
+    "delete": "Notu sil",
+    "color": "Renk",
+    "drag": "Taşımak için sürükleyin",
+    "actions": "Not işlemleri",
+    "moveUp": "Yukarı taşı",
+    "moveDown": "Aşağı taşı",
+    "moveTo": "Bloğa taşı",
+    "hint": "Şablon ipucu. Kendi yanıtınızı yazarak değiştirin."
+  },
+  "colors": {
+    "yellow": "Sarı",
+    "pink": "Pembe",
+    "blue": "Mavi",
+    "green": "Yeşil",
+    "purple": "Mor"
+  },
+  "groups": {
+    "infrastructure": "Nasıl sunuyorsunuz",
+    "offer": "Değer",
+    "customers": "Müşteriler",
+    "finances": "Para"
+  },
+  "progress": {
+    "label": "Dolu bloklar: {{done}} / 9",
+    "next": "Sıradaki: {{block}}",
+    "done": "Tüm bloklar dolu. Şimdi varsayımlarınızı gerçek müşterilerle test edin."
+  },
+  "welcome": {
+    "title": "Hoş geldiniz! Nasıl başlamak istersiniz?",
+    "body": "Kanvasınız bu tarayıcıda otomatik olarak kaydedilir. Hiçbir şey sunucuya gönderilmez.",
+    "template": "Bir şablonla başlayın",
+    "example": "Bir örneği inceleyin",
+    "guide": "Kısa rehberi okuyun",
+    "blank": "Müşteri Segmentleriyle başlayın",
+    "dismiss": "Gizle",
+    "import": "Kayıtlı dosyayı aç"
+  },
+  "guide": {
+    "what": "Bu blok nedir?",
+    "questions": "Sorulacak sorular",
+    "mistakes": "Sık yapılan hatalar",
+    "examples": "Örnekler",
+    "addExample": "Ekle",
+    "added": "{{block}} bloğuna eklendi",
+    "close": "Kapat",
+    "intro": "Nasıl başlanır",
+    "order": "Önerilen sıra",
+    "tips": "Kısa ipuçları",
+    "prev": "Önceki blok",
+    "next": "Sonraki blok"
+  },
+  "gallery": {
+    "title": "Şablonlar ve örnekler",
+    "tabTemplates": "Şablonlar",
+    "tabExamples": "Örnekler",
+    "templatesHelp": "Şablon, her bloğu işletme türünüze uygun yönlendirici ipuçlarıyla doldurur. Her ipucunun üzerine kendi yanıtınızı yazın.",
+    "examplesHelp": "İnceleyebileceğiniz veya uyarlayabileceğiniz eksiksiz örnek kanvaslar. Renkler, hangi notun hangi müşteri segmentine ait olduğunu gösterir.",
+    "all": "Tümü",
+    "blank": "Boş kanvas",
+    "blankDesc": "Sıfırdan başlayın",
+    "use": "Kullan",
+    "confirm": "Bu işlem mevcut kanvasınızın yerini alacak. Sonradan geri alabilirsiniz. Devam edilsin mi?",
+    "yes": "Evet, değiştir",
+    "cancel": "İptal",
+    "import": "Kayıtlı dosyayı aç",
+    "importDesc": "İndirdiğiniz bir kanvası sürdürün (.json)"
+  },
+  "categories": {
+    "food": "Yiyecek",
+    "education": "Eğitim",
+    "tech": "Teknoloji",
+    "retail": "Perakende",
+    "services": "Hizmetler",
+    "social": "Sosyal etki",
+    "health": "Sağlık",
+    "tourism": "Turizm"
+  },
+  "settings": {
+    "title": "Görünüm ve erişilebilirlik",
+    "theme": "Tema",
+    "system": "Sistem",
+    "light": "Açık",
+    "dark": "Koyu",
+    "textSize": "Yazı boyutu",
+    "sizes": {
+      "s": "Küçük",
+      "m": "Varsayılan",
+      "l": "Büyük",
+      "xl": "Çok büyük"
+    },
+    "contrast": "Yüksek kontrast",
+    "contrastHelp": "Daha belirgin kenarlıklar ve yazı renkleri.",
+    "motion": "Hareketi azalt",
+    "motionHelp": "Animasyonları ve geçişleri kapatır.",
+    "shortcuts": "Klavye kısayolları",
+    "sc": {
+      "undo": "Geri al",
+      "redo": "Yinele",
+      "newNote": "Bir notta: sonraki notu ekle",
+      "deleteEmpty": "Boş bir notta: notu sil",
+      "move": "Bir notta: yukarı veya aşağı taşı",
+      "close": "Paneli veya pencereyi kapat"
+    },
+    "reset": "Görünüm ayarlarını sıfırla"
+  },
+  "a11y": {
+    "skip": "Kanvasa geç",
+    "noteAdded": "{{block}} bloğuna not eklendi",
+    "noteDeleted": "Not silindi",
+    "noteMoved": "{{block}} bloğuna taşındı, sıra {{pos}}",
+    "undone": "Geri alındı",
+    "redone": "Yinelendi",
+    "canvasLoaded": "Kanvas yüklendi",
+    "langChanged": "Dil Türkçe olarak değiştirildi"
+  },
+  "msg": {
+    "copied": "Bağlantı kopyalandı. Bağlantıyı açan herkes kanvasınızın bir kopyasını alır.",
+    "longLink": "Bu bağlantı çok uzun ve bazı uygulamalarda çalışmayabilir. Bunun yerine dosya olarak kaydetmeyi deneyin.",
+    "loadedShared": "Paylaşılan bir kanvas açıldı.",
+    "replaceShared": "Paylaşılan bir kanvas bağlantısı açtınız. Mevcut kanvasınız bununla değiştirilsin mi?",
+    "badFile": "Bu dosya okunamadı.",
+    "exporting": "Dışa aktarılıyor…",
+    "exported": "İndirme hazır",
+    "exportFailed": "Dışa aktarma başarısız oldu. Lütfen tekrar deneyin.",
+    "confirmNew": "Bu işlem mevcut kanvası temizler. Sonradan geri alabilirsiniz. Devam edilsin mi?",
+    "saved": "Bu tarayıcıda kaydedildi",
+    "undo": "Geri al",
+    "dropFile": "Açmak için .json dosyanızı buraya bırakın"
+  },
+  "footer": {
+    "attribution": "Strategyzer AG · CC BY-SA 3.0",
+    "privacy": "Kanvasınız tarayıcınızda kalır."
+  },
+  "tour": {
+    "next": "İleri",
+    "back": "Geri",
+    "skip": "Tanıtımı atla",
+    "step": "Adım {{n}} / {{total}}",
+    "template": "Şablonla başla",
+    "blank": "Boş kanvasla başla",
+    "guide": "Blok rehberini aç",
+    "diagram": "Dokuz bloğun şeması",
+    "selected": "{{block}} bağlantıları",
+    "all": "Tüm bağlantıları göster"
+  }
+}

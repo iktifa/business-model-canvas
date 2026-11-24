@@ -1,0 +1,183 @@
+{
+  "appName": "Lienzo de modelo de negocio",
+  "tagline": "Diseña tu modelo de negocio en una sola página",
+  "untitled": "Modelo de negocio sin título",
+  "fields": {
+    "title": "Nombre del proyecto",
+    "author": "Diseñado por",
+    "date": "Fecha",
+    "version": "Versión"
+  },
+  "toolbar": {
+    "gallery": "Plantillas y ejemplos",
+    "guide": "Cómo empezar",
+    "new": "Nuevo lienzo",
+    "share": "Compartir enlace",
+    "export": "Exportar",
+    "png": "Imagen PNG",
+    "pdfA4": "PDF (A4)",
+    "pdfA3": "PDF (A3)",
+    "print": "Imprimir o guardar como PDF de texto",
+    "json": "Guardar archivo (.json)",
+    "import": "Abrir archivo (.json)",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "settings": "Pantalla y accesibilidad",
+    "language": "Idioma",
+    "menu": "Más acciones"
+  },
+  "block": {
+    "add": "Añadir nota",
+    "guide": "Ayuda",
+    "empty": "Vacío. Intenta responder:",
+    "notes": "Notas: {{count}}",
+    "filled": "Completo"
+  },
+  "note": {
+    "placeholder": "Escribe una idea…",
+    "delete": "Eliminar nota",
+    "color": "Color",
+    "drag": "Arrastra para mover",
+    "actions": "Acciones de la nota",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "moveTo": "Mover a otro bloque",
+    "hint": "Pregunta de la plantilla. Escribe para cambiarla por tu respuesta."
+  },
+  "colors": {
+    "yellow": "Amarillo",
+    "pink": "Rosa",
+    "blue": "Azul",
+    "green": "Verde",
+    "purple": "Morado"
+  },
+  "groups": {
+    "infrastructure": "Cómo lo entregas",
+    "offer": "Valor",
+    "customers": "Clientes",
+    "finances": "Dinero"
+  },
+  "progress": {
+    "label": "Bloques completos: {{done}} / 9",
+    "next": "Siguiente: {{block}}",
+    "done": "Todos los bloques están completos. Ahora pon a prueba tus suposiciones con clientes reales."
+  },
+  "welcome": {
+    "title": "¡Te damos la bienvenida! ¿Cómo quieres empezar?",
+    "body": "Tu lienzo se guarda automáticamente en este navegador. No se envía nada a ningún servidor.",
+    "template": "Empezar con una plantilla",
+    "example": "Ver un ejemplo",
+    "guide": "Leer la guía rápida",
+    "blank": "Empezar por Segmentos de clientes",
+    "dismiss": "Ocultar",
+    "import": "Abrir un archivo guardado"
+  },
+  "guide": {
+    "what": "¿Qué es este bloque?",
+    "questions": "Preguntas que hacerte",
+    "mistakes": "Errores comunes",
+    "examples": "Ejemplos",
+    "addExample": "Añadir",
+    "added": "Añadido a {{block}}",
+    "close": "Cerrar",
+    "intro": "Cómo empezar",
+    "order": "Orden sugerido",
+    "tips": "Consejos rápidos",
+    "prev": "Bloque anterior",
+    "next": "Bloque siguiente"
+  },
+  "gallery": {
+    "title": "Plantillas y ejemplos",
+    "tabTemplates": "Plantillas",
+    "tabExamples": "Ejemplos",
+    "templatesHelp": "Una plantilla llena cada bloque con preguntas guía para tu tipo de negocio. Escribe encima de cada pregunta tu propia respuesta.",
+    "examplesHelp": "Lienzos de ejemplo completos para estudiar o adaptar. Los colores muestran qué notas corresponden a cada segmento de clientes.",
+    "all": "Todos",
+    "blank": "Lienzo en blanco",
+    "blankDesc": "Empezar desde cero",
+    "use": "Usar",
+    "confirm": "Esto reemplazará tu lienzo actual. Después puedes deshacerlo. ¿Continuar?",
+    "yes": "Sí, reemplazarlo",
+    "cancel": "Cancelar",
+    "import": "Abrir un archivo guardado",
+    "importDesc": "Continúa un lienzo que descargaste (.json)"
+  },
+  "categories": {
+    "food": "Comida",
+    "education": "Educación",
+    "tech": "Tecnología",
+    "retail": "Comercio",
+    "services": "Servicios",
+    "social": "Impacto social",
+    "health": "Salud",
+    "tourism": "Turismo"
+  },
+  "settings": {
+    "title": "Pantalla y accesibilidad",
+    "theme": "Tema",
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "textSize": "Tamaño del texto",
+    "sizes": {
+      "s": "Pequeño",
+      "m": "Normal",
+      "l": "Grande",
+      "xl": "Muy grande"
+    },
+    "contrast": "Alto contraste",
+    "contrastHelp": "Bordes y colores de texto más marcados.",
+    "motion": "Reducir movimiento",
+    "motionHelp": "Desactiva animaciones y transiciones.",
+    "shortcuts": "Atajos de teclado",
+    "sc": {
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "newNote": "En una nota: añadir la siguiente nota",
+      "deleteEmpty": "En una nota vacía: eliminarla",
+      "move": "En una nota: subirla o bajarla",
+      "close": "Cerrar un panel o diálogo"
+    },
+    "reset": "Restablecer la pantalla"
+  },
+  "a11y": {
+    "skip": "Saltar al lienzo",
+    "noteAdded": "Nota añadida a {{block}}",
+    "noteDeleted": "Nota eliminada",
+    "noteMoved": "Movida a {{block}}, posición {{pos}}",
+    "undone": "Deshecho",
+    "redone": "Rehecho",
+    "canvasLoaded": "Lienzo cargado",
+    "langChanged": "Idioma cambiado a español"
+  },
+  "msg": {
+    "copied": "Enlace copiado. Quien lo abra recibirá una copia de tu lienzo.",
+    "longLink": "Este enlace es muy largo y puede no funcionar en algunas apps. Prueba a guardar un archivo.",
+    "loadedShared": "Se abrió un lienzo compartido.",
+    "replaceShared": "Abriste el enlace de un lienzo compartido. ¿Quieres reemplazar tu lienzo actual por este?",
+    "badFile": "No se pudo leer ese archivo.",
+    "exporting": "Exportando…",
+    "exported": "Descarga lista",
+    "exportFailed": "No se pudo exportar. Inténtalo de nuevo.",
+    "confirmNew": "Esto borra el lienzo actual. Después puedes deshacerlo. ¿Continuar?",
+    "saved": "Guardado en este navegador",
+    "undo": "Deshacer",
+    "dropFile": "Suelta tu archivo .json para abrirlo"
+  },
+  "footer": {
+    "attribution": "Strategyzer AG · CC BY-SA 3.0",
+    "privacy": "Tu lienzo se queda en tu navegador."
+  },
+  "tour": {
+    "next": "Siguiente",
+    "back": "Anterior",
+    "skip": "Saltar la introducción",
+    "step": "Paso {{n}} de {{total}}",
+    "template": "Empezar con una plantilla",
+    "blank": "Empezar con un lienzo en blanco",
+    "guide": "Abrir la guía de cada bloque",
+    "diagram": "Diagrama de los nueve bloques",
+    "selected": "Conexiones de {{block}}",
+    "all": "Mostrar todas las conexiones"
+  }
+}

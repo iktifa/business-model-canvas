@@ -1,0 +1,183 @@
+{
+  "appName": "Business Model Canvas",
+  "tagline": "Concevez votre modèle d'affaires sur une seule page",
+  "untitled": "Modèle d'affaires sans titre",
+  "fields": {
+    "title": "Nom du projet",
+    "author": "Conçu par",
+    "date": "Date",
+    "version": "Version"
+  },
+  "toolbar": {
+    "gallery": "Modèles et exemples",
+    "guide": "Comment commencer",
+    "new": "Nouveau canevas",
+    "share": "Partager le lien",
+    "export": "Exporter",
+    "png": "Image PNG",
+    "pdfA4": "PDF (A4)",
+    "pdfA3": "PDF (A3)",
+    "print": "Imprimer ou enregistrer en PDF texte",
+    "json": "Enregistrer le fichier (.json)",
+    "import": "Ouvrir un fichier (.json)",
+    "undo": "Annuler",
+    "redo": "Rétablir",
+    "settings": "Affichage et accessibilité",
+    "language": "Langue",
+    "menu": "Plus d'actions"
+  },
+  "block": {
+    "add": "Ajouter une note",
+    "guide": "Conseils",
+    "empty": "Vide. Essayez de répondre :",
+    "notes": "Notes : {{count}}",
+    "filled": "Rempli"
+  },
+  "note": {
+    "placeholder": "Écrivez une idée…",
+    "delete": "Supprimer la note",
+    "color": "Couleur",
+    "drag": "Glisser pour déplacer",
+    "actions": "Actions de la note",
+    "moveUp": "Monter",
+    "moveDown": "Descendre",
+    "moveTo": "Déplacer vers le bloc",
+    "hint": "Question du modèle. Écrivez votre réponse pour la remplacer."
+  },
+  "colors": {
+    "yellow": "Jaune",
+    "pink": "Rose",
+    "blue": "Bleu",
+    "green": "Vert",
+    "purple": "Violet"
+  },
+  "groups": {
+    "infrastructure": "Comment vous produisez",
+    "offer": "Valeur",
+    "customers": "Clients",
+    "finances": "Argent"
+  },
+  "progress": {
+    "label": "Blocs remplis : {{done}} / 9",
+    "next": "Suivant : {{block}}",
+    "done": "Tous les blocs sont remplis. Testez maintenant vos hypothèses auprès de vrais clients."
+  },
+  "welcome": {
+    "title": "Bienvenue ! Comment voulez-vous commencer ?",
+    "body": "Votre canevas est enregistré automatiquement dans ce navigateur. Rien n'est envoyé à un serveur.",
+    "template": "Partir d'un modèle",
+    "example": "Découvrir un exemple",
+    "guide": "Lire le guide rapide",
+    "blank": "Commencer par les Segments de clientèle",
+    "dismiss": "Masquer",
+    "import": "Ouvrir un fichier enregistré"
+  },
+  "guide": {
+    "what": "À quoi sert ce bloc ?",
+    "questions": "Questions à se poser",
+    "mistakes": "Erreurs fréquentes",
+    "examples": "Exemples",
+    "addExample": "Ajouter",
+    "added": "Ajouté à {{block}}",
+    "close": "Fermer",
+    "intro": "Comment commencer",
+    "order": "Ordre conseillé",
+    "tips": "Conseils rapides",
+    "prev": "Bloc précédent",
+    "next": "Bloc suivant"
+  },
+  "gallery": {
+    "title": "Modèles et exemples",
+    "tabTemplates": "Modèles",
+    "tabExamples": "Exemples",
+    "templatesHelp": "Un modèle remplit chaque bloc avec des questions adaptées à votre type d'activité. Remplacez chaque question par votre propre réponse.",
+    "examplesHelp": "Des canevas complets à étudier ou à adapter. Les couleurs montrent quelles notes concernent quel segment de clientèle.",
+    "all": "Tous",
+    "blank": "Canevas vide",
+    "blankDesc": "Partir de zéro",
+    "use": "Utiliser",
+    "confirm": "Cela remplacera votre canevas actuel. Vous pourrez annuler ensuite. Continuer ?",
+    "yes": "Oui, remplacer",
+    "cancel": "Annuler",
+    "import": "Ouvrir un fichier enregistré",
+    "importDesc": "Reprendre un canevas téléchargé (.json)"
+  },
+  "categories": {
+    "food": "Alimentation",
+    "education": "Éducation",
+    "tech": "Technologie",
+    "retail": "Commerce",
+    "services": "Services",
+    "social": "Impact social",
+    "health": "Santé",
+    "tourism": "Tourisme"
+  },
+  "settings": {
+    "title": "Affichage et accessibilité",
+    "theme": "Thème",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre",
+    "textSize": "Taille du texte",
+    "sizes": {
+      "s": "Petite",
+      "m": "Normale",
+      "l": "Grande",
+      "xl": "Très grande"
+    },
+    "contrast": "Contraste élevé",
+    "contrastHelp": "Bordures et couleurs de texte plus marquées.",
+    "motion": "Réduire les animations",
+    "motionHelp": "Désactive les animations et les transitions.",
+    "shortcuts": "Raccourcis clavier",
+    "sc": {
+      "undo": "Annuler",
+      "redo": "Rétablir",
+      "newNote": "Dans une note : ajouter la note suivante",
+      "deleteEmpty": "Dans une note vide : la supprimer",
+      "move": "Dans une note : la monter ou la descendre",
+      "close": "Fermer un panneau ou une fenêtre"
+    },
+    "reset": "Réinitialiser l'affichage"
+  },
+  "a11y": {
+    "skip": "Aller au canevas",
+    "noteAdded": "Note ajoutée à {{block}}",
+    "noteDeleted": "Note supprimée",
+    "noteMoved": "Déplacée vers {{block}}, position {{pos}}",
+    "undone": "Annulé",
+    "redone": "Rétabli",
+    "canvasLoaded": "Canevas chargé",
+    "langChanged": "Langue changée : français"
+  },
+  "msg": {
+    "copied": "Lien copié. Toute personne qui l'ouvre reçoit une copie de votre canevas.",
+    "longLink": "Ce lien est très long et risque de ne pas fonctionner dans certaines applications. Essayez plutôt d'enregistrer un fichier.",
+    "loadedShared": "Canevas partagé ouvert.",
+    "replaceShared": "Vous avez ouvert le lien d'un canevas partagé. Remplacer votre canevas actuel par celui-ci ?",
+    "badFile": "Impossible de lire ce fichier.",
+    "exporting": "Exportation…",
+    "exported": "Téléchargement prêt",
+    "exportFailed": "L'exportation a échoué. Veuillez réessayer.",
+    "confirmNew": "Cela efface le canevas actuel. Vous pourrez annuler ensuite. Continuer ?",
+    "saved": "Enregistré dans ce navigateur",
+    "undo": "Annuler",
+    "dropFile": "Déposez votre fichier .json pour l'ouvrir"
+  },
+  "footer": {
+    "attribution": "Strategyzer AG · CC BY-SA 3.0",
+    "privacy": "Votre canevas reste dans votre navigateur."
+  },
+  "tour": {
+    "next": "Suivant",
+    "back": "Précédent",
+    "skip": "Passer l'introduction",
+    "step": "Étape {{n}} sur {{total}}",
+    "template": "Partir d'un modèle",
+    "blank": "Commencer avec un canevas vide",
+    "guide": "Ouvrir le guide bloc par bloc",
+    "diagram": "Schéma des neuf blocs",
+    "selected": "Liens du bloc {{block}}",
+    "all": "Afficher tous les liens"
+  }
+}

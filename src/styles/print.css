@@ -1,0 +1,29 @@
+@media print {
+  @page {
+    size: A3 landscape;
+    margin: 8mm;
+  }
+  html,
+  body {
+    background: #fff !important;
+  }
+  .screen-only,
+  .scrim,
+  .toast {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-only .xv {
+    width: 100%;
+    padding: 0;
+  }
+  .xv-grid {
+    grid-template-rows: auto auto auto;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
